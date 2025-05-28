@@ -3408,7 +3408,6 @@ accordion
       -ms-flex-pack: justify;
           justify-content: space-between;
   cursor: pointer;
-  margin-bottom: 30px;
 }
 .mil-accordion-group .mil-accordion-menu .mil-symbol {
   border-radius: 50%;
