@@ -21,6 +21,16 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"/> -->
     <!-- page name -->
     <title>Pranesh Raj - Portfolio</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "FGIbKaW2bCJwb7Ke9",
+        });
+    })();
+    </script>
 
 </head>
 
@@ -509,6 +519,32 @@ methodologies and trends on the market.</p>
                 </section>
                 <!-- services end -->
 
+                <section class="bg-white">
+                    <div class="container mil-p-120-90">
+                        <h3 class="mil-center mil-up mil-mb-120">Let's <span class="mil-thin">Talk</span></h3>
+                        <form id="formtag" class="row align-items-center">
+                            <div class="col-lg-6 mil-up">
+                                <input type="text" id="myname"  placeholder="What's your name" required>
+                            </div>
+                            <div class="col-lg-6 mil-up">
+                                <input type="email" id="myemail" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-lg-12 mil-up">
+                                <textarea id="mymessage" placeholder="Tell us about our project" required></textarea>
+                            </div>
+                            <div class="col-lg-8">
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="mil-adaptive-right mil-up mil-mb-30">
+                                    <button type="submit" class="mil-button mil-arrow-place">
+                                        <span>Send message</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
 
 
                 <!-- footer -->
@@ -522,10 +558,10 @@ methodologies and trends on the market.</p>
 
                                     <p class="mil-light-soft mil-up mil-mb-30">UX UI / Product Designer</p>
 
-                                    <form class="mil-subscribe-form mil-up">
+                                    <!-- <form class="mil-subscribe-form mil-up">
                                         <input type="text" placeholder="Enter our email">
                                         <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                                    </form>
+                                    </form> -->
 
                                 </div>
                                 <div class="col-md-7 col-lg-6">

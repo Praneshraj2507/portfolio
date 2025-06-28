@@ -1050,3 +1050,17 @@ $(function () {
     });
 
 });
+
+let formtag = document.getElementById("formtag");
+
+formtag.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    emailjs.send("service_psqezjb","template_2p5okc9",{
+    myemail: document.getElementById("myemail").value,
+    myname: document.getElementById("myname").value,
+    mymessage: document.getElementById("mymessage").value,
+    }).then(()=>{
+        alert("Message sent successfully. we will contact you shortly");
+        formtag.reset();
+    });
+})
