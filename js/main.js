@@ -967,16 +967,20 @@ $(function () {
         var swiper = new Swiper('.mil-infinite-show', {
             slidesPerView: 2,
             spaceBetween: 30,
-            speed: 5000,
+            speed: 3000,
             autoplay: true,
             autoplay: {
-                delay: 0,
+                
+                delay: 0, // time between slides in ms
+                disableOnInteraction: false, // autoplay will NOT stop after user interactions
+               
             },
             loop: true,
             freeMode: true,
             breakpoints: {
                 992: {
                     slidesPerView: 4,
+                    loop: true,
                 },
             },
         });
