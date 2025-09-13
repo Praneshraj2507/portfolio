@@ -2350,7 +2350,7 @@ services
   padding: 60px 30px;
 }
 .mil-service-card-sm p {
-  opacity: 0;
+  /* opacity: 0; */
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
   overflow: hidden;
@@ -2367,6 +2367,12 @@ services
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   opacity: 0.4;
+}
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+.swiper-slide {
+  width: auto; /* Or use flex basis % if fixed width */
 }
 .mil-service-card-sm:before {
   content: "";

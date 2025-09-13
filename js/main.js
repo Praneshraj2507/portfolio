@@ -1007,6 +1007,7 @@ $(function () {
                 type: 'fraction',
             },
         });
+        
         /***************************
 
         1 item slider
